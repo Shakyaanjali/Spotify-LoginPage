@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.924);
+    display: flex;
+    align-items: center;
+}
+
+.nav img {
+    margin-left: 30px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.924);
+}
+
+.box {
+    /* height: 100vh; */
+    width: 55%;
+    background-color: rgb(20 20 20 / 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.one p{
+text-align:left;
+
+}
+
+.content {
+    /* max-width: 30vw; */
+    /* padding: 50px 0px; */
+    color: white;
+    /* background-color: aqua; */
+}
+
+.two h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.buttons {
+    margin: 40px auto;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+.buttons p {
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.buttons button {
+    height: 50px;
+    width: 100%;
+    border-radius: 40px;
+    padding: 0px 40px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: transparent;
+    border: solid rgba(255, 255, 255, 0.281) 1px;
+}
+.buttons button:hover{
+border: solid white 1px;
+}
+.or{
+    width: 50%;
+    display: flex;
+align-items: center;
+gap: 8px;
+color: white;
+font-size: 14px;
+}
+.line {
+    height: 1px;
+    width: 50%;
+    background-color: rgba(216, 216, 216, 0.446);
+}
+
+.two {
+    /* padding: 20px 0px; */
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.form {
+    padding-bottom: 15px;
+}
+
+.form p {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.form input {
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: solid rgba(255, 255, 255, 0.281) 1px;
+    border-radius: 5px;
+    color: white;
+}
+.form input:hover{
+    border: solid white 1px;
+}
+.check{
+    display: flex;
+}
+
+input[type=checkbox] {
+    accent-color: #1ed760;
+}
+
+.btn button{
+    height: 50px;
+    width: 100%;
+    margin: 30px 0px;
+    border-radius: 50px;
+    border: none;
+    background-color: #20d860;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn button:hover{
+    background-color: #30f173;}
+.two a{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.two a:hover{
+    color: #1ed760;
+}
+.check a {
+    font-size: 14px;
+    color: #1ed760;
+}
+.sign{
+    padding:20px 0px;
+}
+.sign p{
+    font-size: 14px;
+    color: rgba(226, 226, 226, 0.893);
+    
+}
+.sign a{
+    color: rgb(255, 255, 255);
+    padding-left: 2px;
+}
+.sign a:hover{
+    color: #1ed760;
+}
+.footer {
+    height: 10vh;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    text-align: center;
+    font-size: 10px;
+    max-width: 20%;
+    color: rgba(226, 226, 226, 0.893);
+}
+.footer a{
+    font-size: 12px;
+    color:rgba(226, 226, 226, 0.893) ;
+}
